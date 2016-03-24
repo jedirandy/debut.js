@@ -10,6 +10,10 @@
  a gulp based building system, using browserify with:
  - babel with es2015 preset
 
+#### webpack react (early 2016)
+[example](/webpack-react)
+a minimal webpacker for developing react libraries
+
 ## Testing
 
 #### karma browserify (early 2016) 
