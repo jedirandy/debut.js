@@ -11,7 +11,8 @@
  - babel with es2015 preset
 
 #### webpack react (early 2016)
-[example](/webpack-react)
+[example](/webpack-react) [![Dependency Status](https://www.versioneye.com/user/projects/56f4749935630e003e0a84cd/badge.svg?style=flat)](https://www.versioneye.com/user/projects/56f4749935630e003e0a84cd)
+
 a minimal webpacker for developing react libraries
 
 ## Testing
