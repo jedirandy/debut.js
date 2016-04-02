@@ -22,7 +22,14 @@ a minimal webpacker for developing react libraries
 
 [![Dependency Status](https://www.versioneye.com/user/projects/56f46e4f35630e003888a8d1/badge.svg?style=flat)](https://www.versioneye.com/user/projects/56f46e4f35630e003888a8d1)
 
-a karma based testing configuration for ES6, consisting of:
+a karma browserify based testing configuration for ES6, using:
+- mocha
+- chai
+- sinon
+
+#### [karma webpack](/karma-webpack) (early 2016)
+
+a karma webpack based testing configuration for ES6, using:
 - mocha
 - chai
 - sinon
