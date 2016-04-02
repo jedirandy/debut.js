@@ -1,5 +1,5 @@
 # debut.js
-:fireworks: a collection of JS (for ES6/7) building, testing recipes for various development purposes
+:fireworks: a collection of JS (for ES6/7) building, testing recipes for various development purposes with only essential dependencies
 
 ## Building
 
