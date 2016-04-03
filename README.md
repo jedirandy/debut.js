@@ -27,7 +27,7 @@ a karma browserify based testing configuration for ES6, using:
 - chai
 - sinon
 
-#### [karma webpack](/karma-webpack) (early 2016)
+#### [karma webpack](/karma-webpack)
 
 [![Dependency Status](https://www.versioneye.com/user/projects/5700d5a9fcd19a004543f7eb/badge.svg?style=flat)](https://www.versioneye.com/user/projects/5700d5a9fcd19a004543f7eb) (early 2016)
 
