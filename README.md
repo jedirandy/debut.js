@@ -1,5 +1,5 @@
 # debut.js
-:fireworks: a collection of JS (for ES6/7) building, testing recipes for various development purposes with only essential dependencies
+:fireworks: a collection of JS (for ES6/7) building, testing recipes with minimal, only necessary dependencies
 
 ## Building
 
@@ -10,17 +10,17 @@
  a gulp based building system, using browserify with:
  - babel with es2015 preset
 
+#### [webpack lib](/webpack-react)
+
+[![Dependency Status](https://www.versioneye.com/user/projects/572a6927a0ca35004cf7712f/badge.svg?style=flat)](https://www.versioneye.com/user/projects/572a6927a0ca35004cf7712f) (early 2016)
+
+a webpacker for library development
+
 #### [webpack react](/webpack-react)
 
 [![Dependency Status](https://www.versioneye.com/user/projects/56f4749935630e003e0a84cd/badge.svg?style=flat)](https://www.versioneye.com/user/projects/56f4749935630e003e0a84cd) (early 2016)
 
-a webpacker for developing library
-
-#### [webpack react](/webpack-react)
-
-[![Dependency Status](https://www.versioneye.com/user/projects/56f4749935630e003e0a84cd/badge.svg?style=flat)](https://www.versioneye.com/user/projects/56f4749935630e003e0a84cd) (early 2016)
-
-a webpacker for developing react
+a webpacker for React app development
 
 ## Testing
 
