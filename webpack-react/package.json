@@ -4,7 +4,7 @@
   "description": "webpack react",
   "main": "dist/index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack --bail"
   },
   "author": "",
   "license": "MIT",

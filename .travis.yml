@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - "4.1"
+before_script:
+  - sh -c 'cd ./webpack-lib && npm install'
+  - sh -c 'cd ./webpack-react && npm install'
+  - sh -c 'cd ./gulp-browserify && npm install'
+  - sh -c 'cd ./karma-browserify && npm install'
+  - sh -c 'cd ./karma-webpack && npm install'
+script:
+  - sh -c 'cd ./webpack-lib && npm run build'
+  - sh -c 'cd ./webpack-react && npm run build'
+  - sh -c 'cd ./gulp-browserify && npm run build'
+  - sh -c 'cd ./karma-browserify && npm run test'
+  - sh -c 'cd ./karma-webpack && npm run test'

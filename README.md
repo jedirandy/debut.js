@@ -1,4 +1,6 @@
 # debut.js
+[![Build Status](https://travis-ci.org/jedirandy/debut.js.svg?branch=master)](https://travis-ci.org/jedirandy/debut.js)
+
 :fireworks: a collection of JS (for ES6/7) building, testing recipes with minimal, only necessary dependencies
 
 ## Building
@@ -21,6 +23,8 @@ a webpacker for library development
 [![Dependency Status](https://www.versioneye.com/user/projects/56f4749935630e003e0a84cd/badge.svg?style=flat)](https://www.versioneye.com/user/projects/56f4749935630e003e0a84cd) (early 2016)
 
 a webpacker for React app development
+
+- dependencies and app are separated into two files
 
 ## Testing
 

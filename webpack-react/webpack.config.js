@@ -1,9 +1,12 @@
+var webpack = require('webpack');
 var path = require('path');
+var npmPackage = require('./package.json');
 
 module.exports = {
-    entry: [
-        path.resolve(__dirname, 'src/main.js')
-    ],
+    entry: {
+        app: path.resolve(__dirname, 'src/main.js'),
+        dependencies: Object.keys(npmPackage.dependencies)
+    },
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'index.js',
@@ -21,8 +24,11 @@ module.exports = {
             }
         ]
     },
-    externals: {
-        'react': 'React',
-        'react-dom': 'ReactDOM'
-    }
+    plugins: [
+        new webpack.optimize.CommonsChunkPlugin({
+            name: 'dependencies',
+            filename: 'vendor.js',
+            minChunks: Infinity
+        })
+    ]
 }
