@@ -9,7 +9,7 @@
     "babelify": "^7.2.0",
     "karma-browserify": "^5.0.2",
     "karma-chai": "^0.1.0",
-    "karma-mocha": "^0.2.2",
+    "karma-mocha": "^1.0.1",
     "karma-phantomjs-launcher": "^1.0.0",
     "sinon": "^1.17.3"
   },
