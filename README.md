@@ -5,7 +5,14 @@
 
 ## Building
 
-#### [webpack lib](/webpack-react)
+#### [webpack flow](/webpack-flow)
+
+A Webpack project with:
+
+- Flow type checker
+- ESLint
+
+#### [webpack lib](/webpack-lib)
 
 [![Dependency Status](https://www.versioneye.com/user/projects/572a6927a0ca35004cf7712f/badge.svg?style=flat)](https://www.versioneye.com/user/projects/572a6927a0ca35004cf7712f) (early 2016)
 
