@@ -2,13 +2,13 @@ module.exports = {
     "env": {
         "browser": true,
         "es6": true,
-        "commonjs": true
+        "node": true
     },
-    "extends": "eslint:recommended",
     "parser": "babel-eslint",
     "parserOptions": {
         "sourceType": "module"
     },
+    "extends": "eslint:recommended",
     "rules": {
         "indent": [
             "error",
