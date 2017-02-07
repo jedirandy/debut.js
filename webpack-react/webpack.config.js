@@ -12,15 +12,18 @@ module.exports = {
         filename: 'index.js',
     },
     module: {
-        loaders: [
+        rules: [
             {
                 test: /\.jsx?$/,
-                loader: 'babel-loader',
-                query: {
-                    cacheDirectory: true,
-                    presets: ['es2015', 'react']
-                },
-                include: path.join(__dirname, 'src')
+                include: path.join(__dirname, 'src'),
+                use: [
+                    {
+                        loader: 'babel-loader',
+                        options: {
+                            presets: ['es2015', 'react']
+                        }
+                    }
+                ]
             }
         ]
     },

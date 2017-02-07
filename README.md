@@ -21,15 +21,13 @@ a webpacker for library development
 
 #### [webpack react](/webpack-react)
 
-[![Dependency Status](https://www.versioneye.com/user/projects/56f4749935630e003e0a84cd/badge.svg?style=flat)](https://www.versioneye.com/user/projects/56f4749935630e003e0a84cd) (early 2016)
+[![Dependency Status](https://www.versioneye.com/user/projects/56f4749935630e003e0a84cd/badge.svg?style=flat)](https://www.versioneye.com/user/projects/56f4749935630e003e0a84cd) (early 2017)
 
-a webpacker for React app development
+a Webpack 2 starter for React app development
 
-- dependencies and app are separated into two files
+#### [gulp browserify](/gulp-browserify)
 
-#### [gulp browserify](/gulp-browserify) 
-
-[![Dependency Status](https://www.versioneye.com/user/projects/56f46e4b35630e0029db0600/badge.svg?style=flat)](https://www.versioneye.com/user/projects/56f46e4b35630e0029db0600) (early 2016) 
+[![Dependency Status](https://www.versioneye.com/user/projects/56f46e4b35630e0029db0600/badge.svg?style=flat)](https://www.versioneye.com/user/projects/56f46e4b35630e0029db0600) (early 2016)
 
  a Gulp based building system, using browserify with Babel (ES2015 preset) to transile ES6 code.
 
